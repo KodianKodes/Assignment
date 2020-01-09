@@ -1,0 +1,55 @@
+{% load staic %}
+{% extends "base.html" %}
+{% block content %}
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+
+                <!-- LOGO -->
+                <h3 class="masthead-brand">Emmanuel Alex</h3>
+                <!-- NAVIGATION MENU -->
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link " href="pages/about.html">About Me</a>
+                    <a class="nav-link" href="pages/portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="pages/diary.html">My Diary</a>
+                    <a class="nav-link" href="pages/contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div role="main" class="inner cover">
+            <br />
+
+            <!-- BIG IMAGE ON HOMEPAGE -->
+            <img src="images/pic.jpg" alt="My Main Image" width="500" class="flud">
+            <br />
+            <br />
+
+            <h1 class="cover-heading">Frontend Developer</h1>
+
+            <p class="lead"> I'm a multi talented, ambitious person with a positive mindset, to use the little tool and
+                skill i have to solve both local, national and global problem. I learn to collaborate with people within
+                and my team.
+            </p>
+
+            <p class="lead">
+                <a href="[CHANGE ME - LINK ME TO CONTACT PAGE]" class="btn btn-lg btn-secondary">Hire Me<br /></a>
+                <br />
+            </p>
+
+        </div>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
+                        href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+
+{% endblock %}
